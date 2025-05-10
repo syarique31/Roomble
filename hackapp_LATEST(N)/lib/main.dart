@@ -18,7 +18,10 @@ class MyApp extends StatelessWidget {
       initialRoute: '/login',
       routes: {
         '/login': (context) => const LoginPage(),
-        '/home': (context) => const HomePage(),
+        '/home': (context) {
+          final userEmail = ModalRoute.of(context)!.settings.arguments as String;
+          return HomePage(userEmail: userEmail);
+        },
         '/matching': (context) => const MatchingPage(),
       },
     );
