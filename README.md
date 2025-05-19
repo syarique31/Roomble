@@ -37,3 +37,6 @@ git clone https://github.com/syarique31/Roomble.git
 cd Roomble/hackapp_LATEST(N)
 flutter pub get
 flutter run -d chrome
+---------------------
+login: lucas.martin@example.com
+password: mypassword1
