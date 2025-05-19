@@ -13,7 +13,6 @@ Built entirely with **Flutter**, Roomble currently includes:
 -  A cozy home screen greeting you by email (like a digital hug)
 -  A “Find a Roommate” button hinting at swipe-based future features
 -  A polished and minimalist UI with light branding flair
--  No backend... *yet* — fully frontend and hackathon-ready
 
 ---
 
@@ -24,7 +23,6 @@ Built entirely with **Flutter**, Roomble currently includes:
 | Frontend | Flutter, Dart             |
 | Platforms | Web, Android, iOS (Flutter build targets) |
 | Testing  | Manual testing (for now)  |
-| Planned  | Firebase (Auth + DB), RESTful API, Node.js backend, and more |
 
 ---
 
